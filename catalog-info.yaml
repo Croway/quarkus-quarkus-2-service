@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "quarkus-2"
+  description: "desc"
+  tags:
+    - java
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/backstage-admins"
+  system: system:default/quarkus
+  providesApis: 
+    - openapi-skeleton
